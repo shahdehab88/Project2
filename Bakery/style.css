@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  font-size: 50;
+}
+h3 {
+  text-align: center;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.ulnav li {
+  display: inline-block;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ulnav {
+  list-style-type: none;
+}
+.bakery-logo {
+  width: 200px;
+}
+.home {
+  padding: 1px;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.home-conent {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.home-conent p {
+  font-size: 25px;
+  padding: 10px;
+}
+.home-conent button {
+  padding: 0px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  color: white;
+}
+
+.b1 {
+  background-color: rgba(185, 116, 116, 0);
+  border: 2px solid white;
+}
+.Bakery {
+  margin-top: 100px;
+  overflow: auto;
+}
+.DivBakery {
+  width: 50%;
+  padding: 50px;
+
+  float: left;
+}
+.imgBakery {
+  width: 100%;
+}
+.contentBakery {
+  width: 50%;
+  float: right;
+  padding: 70px;
+}
+.sectionLocation {
+  overflow: auto;
+  background-color: rgb(255, 248, 236);
+}
+.contentLocation {
+  width: 50%;
+  float: left;
+  padding: 50px;
+}
+
+.DivLocation {
+  float: right;
+  width: 50%;
+  padding: 70px;
+}
+.imgLocation {
+  width: 100%;
+}
+h2 {
+  font-size: 30px;
+}
+.contentBaking {
+  text-align: center;
+}
+.bigDiv {
+  overflow: auto;
+}
+.smallDiv {
+  float: left;
+  padding: 30px;
+  width: 33.3333%;
+  margin: auto;
+}
+.imgBaking {
+  width: 100%;
+}
+
+.sectionContact {
+  padding: 10px;
+  background-color: rgb(255, 248, 236);
+  text-align: center;
+}
+
+.sectionAboutbig {
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.sectionAbout {
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+
+.map {
+  background-image: url(images/contact-details-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clr {
+  clear: both;
+}
+
+.sectionFinal {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 150px;
+}
